@@ -23,3 +23,11 @@ I've been working as a SAP ABAP developer for 4 years, but always want to develo
 * SQL
 * ABAP
 * SAP Cloud Platform
+***
+## Code Example
+```
+function makeNegative(num) {
+  if (num < 0) return num
+  else return 0-num
+}
+```
