@@ -31,3 +31,12 @@ function makeNegative(num) {
   else return 0-num
 }
 ```
+***
+# Experience
+* SAP ABAP Developer - sep. 2018 - Present
+***
+## Education
+* **University**: Belarusian State Technological Iniversity, Imformation Technology Faculty, Bachelor's degree
+***
+## English
+**A2** 
