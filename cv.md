@@ -32,7 +32,7 @@ function makeNegative(num) {
 }
 ```
 ***
-# Experience
+## Experience
 * SAP ABAP Developer - sep. 2018 - Present
 ***
 ## Education
