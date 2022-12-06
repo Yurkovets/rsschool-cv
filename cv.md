@@ -17,6 +17,7 @@ I've been working as a SAP ABAP developer for 4 years, but always want to develo
 ## Skills
 * HTML
 * Git
+* VS Code
 * Communication
 * Teamwork
 * SQL
