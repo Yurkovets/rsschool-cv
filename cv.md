@@ -1,4 +1,4 @@
-![My Image](/images/photo.jpg "My Photo")
+![My Image](images/photo.jpg "My Photo")
 # Hanna Malmyha
 ***
 ## Contacts
