@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
   }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'DM Sans', sans-serif;
     min-height: 100vh;
@@ -11,16 +16,36 @@ body {
     justify-content: space-between;
 }
 header {
-    border: 1px solid black;
+    background-color: #ad7756;
 }
 main {
-    border: 1px solid black;
+    border: 1px;
 }
 footer {
-    border: 1px solid black;
+    border: 1px;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {    
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fefbf0;
+    transition: color 0.8s;
+}
+
+.nav-link:hover {
+    color: #96b389;
 }
