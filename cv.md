@@ -1,4 +1,3 @@
-![My Image](https://github.com/Yurkovets/rsschool-cv/blob/gh-pages/images/photo.jpg "My Photo")
 # Hanna Malmyha
 ***
 ## Contacts
