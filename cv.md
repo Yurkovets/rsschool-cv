@@ -37,4 +37,4 @@ function makeNegative(num) {
 * **University**: Belarusian State Technological Iniversity, Imformation Technology Faculty, Bachelor's degree
 ***
 ## English
-**A2** 
+**B1 - Pre-Intermediate** 
