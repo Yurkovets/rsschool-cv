@@ -18,6 +18,9 @@ body {
 header {
     background-color: #ad7756;
 }
+footer {
+    background-color: #ad7756;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -64,6 +67,10 @@ header {
     font-size: 40px;
     letter-spacing: 10px;
     color: #403f3f;
+}
+
+.github-image {
+    padding: 10px 10px 10px 10px;
 }
 
 @media (max-width: 768px) {
