@@ -3,7 +3,6 @@
 ## Contacts
 ***
 * **Location**: Minsk, Belarus
-* **Phone Number**: +375(25)9492311
 * **Discord Nickname**: Hanna Malmyha(@Yurkovets)
 * **Telegram**: https://t.me/AnnaMalmyga
 * **LinkedIn**: https://www.linkedin.com/in/hanna-malmyha-663bb4173/
