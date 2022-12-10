@@ -18,6 +18,11 @@ body {
 header {
     background-color: #ad7756;
 }
+
+main {
+    padding: 30px 50px;
+}
+
 footer {
     background-color: #ad7756;
 }
@@ -26,19 +31,22 @@ footer {
     margin: 0 auto;
 }
 
-.main-container {
+#main-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+#profile {
+    width: 100%;
 }
 
 .nav-list {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     list-style: none;
 }
 
-.nav-link {    
+.nav-link, .footer-item, .footer-link {    
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
@@ -47,7 +55,7 @@ footer {
     transition: color 0.8s;
 }
 
-.nav-link:hover {
+.nav-link:hover, .footer-link:hover {
     color: #96b389;
 }
 
@@ -69,8 +77,11 @@ footer {
     color: #403f3f;
 }
 
-.github-image {
-    padding: 10px 10px 10px 10px;
+.footer-list {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
 @media (max-width: 768px) {
