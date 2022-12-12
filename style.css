@@ -1,140 +1,144 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 header {
-    position: fixed;
-    width: 100%;
-    background-color: #ad7756;
+  position: fixed;
+  width: 100%;
+  background-color: #ad7756;
 }
 
 main {
-    padding: 30px 20px;
+  padding: 30px 20px;
 }
 
 footer {
-    background-color: #ad7756;
+  background-color: #ad7756;
 }
 
 a {
-    text-decoration: none;
-    color: #ad7756;
+  text-decoration: none;
+  color: #ad7756;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#profile {    
-    width: 100%;
-    background-color: #e5e2e2;
-    display: flex;
-    justify-content: space-around;
-    border-bottom: initial;
-    margin-top: 100px;
-    padding-bottom: 80px;
-    flex-wrap: wrap;
+#profile {
+  width: 100%;
+  background-color: #e5e2e2;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: initial;
+  margin-top: 100px;
+  padding-bottom: 80px;
+  flex-wrap: wrap;
 }
 
 .profile-section-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-}
-
-.profile-image {
-    width: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
-.nav-link, .footer-item, .footer-link {    
-    padding: 0 20px;
-    line-height: 50px;
-    font-size: 20px;
-    color: #fefbf0;
-    transition: color 0.8s;
+.nav-link,
+.footer-item,
+.footer-link {
+  padding: 0 20px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fefbf0;
+  transition: color 0.8s;
 }
 
-.nav-link:hover, .footer-link:hover {
-    color: #96b389;
+.nav-link:hover,
+.footer-link:hover {
+  color: #96b389;
 }
 
 .section-title {
-    font-size: 25px;
-    font-weight: 100;
-    color: #a67028;
-    letter-spacing: 7px;     
-    text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 100;
+  color: #a67028;
+  letter-spacing: 7px;
+  text-transform: uppercase;
 }
 
 .section {
-    width: 45%;
-    font-size: 18px;
-    line-height: 1.5;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #a3a2a2;
-    margin-left: 40px;
+  width: 45%;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #a3a2a2;
+  margin-left: 40px;
 }
 
 .profile-title {
-    font-size: 35px;
-    letter-spacing: 10px;
-    color: #545454;
+  font-size: 35px;
+  letter-spacing: 10px;
+  color: #545454;
 }
 
 .profile-subtitle {
-    font-size: 25px;
-    color: #7b7a79;
+  font-size: 25px;
+  color: #7b7a79;
 }
 
-#contacts, #skills, #experience, #education {
-    margin-left: 30px;
-    margin-right: 40px;
+#contacts,
+#skills,
+#experience,
+#education {
+  margin-left: 30px;
+  margin-right: 40px;
 }
 
-#education, #english {
-    border-bottom: initial;
+#education,
+#english {
+  border-bottom: initial;
 }
 
 .pre {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-list {
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;    
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
 @media (max-width: 768px) {
@@ -144,15 +148,17 @@ a {
 
   .footer-list {
     justify-content: center;
-}
-.nav-list {
-    justify-content: center;
-}
-header {
-    position: static;
-}
+  }
 
-#profile {   
+  .nav-list {
+    justify-content: center;
+  }
+
+  header {
+    position: static;
+  }
+
+  #profile {
     margin-top: 50px;
-}
+  }
 }
