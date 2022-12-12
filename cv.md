@@ -1,10 +1,8 @@
-![My Image](https://github.com/Yurkovets/rsschool-cv/blob/gh-pages/images/photo.jpg "My Photo")
 # Hanna Malmyha
 ***
 ## Contacts
 ***
 * **Location**: Minsk, Belarus
-* **Phone Number**: +375(25)9492311
 * **Discord Nickname**: Hanna Malmyha(@Yurkovets)
 * **Telegram**: https://t.me/AnnaMalmyga
 * **LinkedIn**: https://www.linkedin.com/in/hanna-malmyha-663bb4173/
@@ -39,4 +37,4 @@ function makeNegative(num) {
 * **University**: Belarusian State Technological Iniversity, Imformation Technology Faculty, Bachelor's degree
 ***
 ## English
-**A2** 
+**B1 - Pre-Intermediate** 
