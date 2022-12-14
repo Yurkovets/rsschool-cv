@@ -23,7 +23,7 @@ header {
 }
 
 main {
-  padding: 30px 20px;
+  padding: 30px 0;
 }
 
 footer {
@@ -74,7 +74,7 @@ a {
 .nav-link,
 .footer-item,
 .footer-link {
-  padding: 0 20px;
+  padding: 0 30px;
   line-height: 50px;
   font-size: 20px;
   color: #fefbf0;
@@ -102,7 +102,7 @@ a {
   padding-top: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #a3a2a2;
-  margin-left: 40px;
+  margin: 0 30px 0 30px;
 }
 
 .profile-title {
@@ -116,49 +116,64 @@ a {
   color: #7b7a79;
 }
 
-#contacts,
-#skills,
-#experience,
-#education {
-  margin-left: 30px;
-  margin-right: 40px;
-}
-
 #education,
 #english {
-  border-bottom: initial;
+  border-bottom: none;
 }
 
 .pre {
   padding: 0;
   margin: 0;
-}
+} 
 
 .footer-list {
-  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
+.profile-image {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+.rss-image {
+  width: 80px;
+}
+
+.github-image {
+  padding-right: 10px;
+}
+
 @media (max-width: 768px) {
   .section {
-    width: 100%;
+    width: 100%;    
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .footer-list {
-    justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  }
+
+  .github-link-item {
+    padding: 20px 0;
   }
 
   .nav-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-count: 2;
+    margin-left: 0;
+    margin-right: 25px;
     justify-content: center;
   }
 
-  header {
-    position: static;
-  }
-
   #profile {
-    margin-top: 50px;
+    margin-top: 200px;
   }
 }
