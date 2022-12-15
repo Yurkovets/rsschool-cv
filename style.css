@@ -50,7 +50,7 @@ a {
   background-color: #e5e2e2;
   display: flex;
   justify-content: space-around;
-  border-bottom: initial;
+  border: none;
   margin-top: 100px;
   padding-bottom: 80px;
   flex-wrap: wrap;
@@ -69,6 +69,7 @@ a {
   justify-content: flex-end;
   flex-wrap: wrap;
   list-style: none;
+  padding: 10px;
 }
 
 .nav-link,
@@ -98,9 +99,7 @@ a {
   width: 45%;
   font-size: 18px;
   line-height: 1.5;
-  padding-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding: 30px 20px;
   border-bottom: 1px solid #a3a2a2;
   margin: 0 30px 0 30px;
 }
@@ -118,18 +117,14 @@ a {
 
 #education,
 #english {
-  border-bottom: none;
+  border: none;
 }
-
-.pre {
-  padding: 0;
-  margin: 0;
-} 
 
 .footer-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  padding: 20px;
 }
 
 .profile-image {
@@ -143,14 +138,14 @@ a {
 }
 
 .github-image {
-  padding-right: 10px;
+  padding: 0 10px 0 0;
 }
 
 @media (max-width: 768px) {
   .section {
     width: 100%;    
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto 10px;
+    padding: 0px 20px;
   }
 
   .footer-list {
@@ -165,15 +160,15 @@ a {
   }
 
   .nav-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-count: 2;
-    margin-left: 0;
-    margin-right: 25px;
     justify-content: center;
   }
 
   #profile {
-    margin-top: 200px;
+    margin: 200px 10px 0;
+    padding: 30px;
+  }
+  
+  .profile-subtitle {
+    font-size: 20px;
   }
 }
